@@ -1,0 +1,5 @@
+node_modules
+.shadow-cljs
+public/js/
+.clj-kondo
+yarn-error.log
