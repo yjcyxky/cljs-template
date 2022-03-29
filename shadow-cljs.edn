@@ -22,14 +22,14 @@
 
         :modules
         {:main
-         {:entries [cljs-d3.core]
-          :init-fn cljs-d3.core/init}}
+         {:entries [cljs-template.core]
+          :init-fn cljs-template.core/init}}
 
         :devtools
         ;; before live-reloading any code call this function
-        {:before-load cljs-d3.core/stop
+        {:before-load cljs-template.core/stop
          ;; after live-reloading finishes call this function
-         :after-load cljs-d3.core/start
+         :after-load cljs-template.core/start
          ;; serve the public directory over http at port 8700
          :http-root    "public"
          :http-port    3000

@@ -1,4 +1,4 @@
-(ns cljs-d3.core
+(ns cljs-template.core
   (:require [reagent.core :as reagent :refer [atom]]
             ["escher" :as escher]))
 

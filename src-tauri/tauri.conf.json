@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "cljs-d3",
+    "productName": "cljs-template",
     "version": "0.1.0"
   },
   "build": {
